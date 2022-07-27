@@ -1,0 +1,20 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    canvas {
+        width: 50%;
+        height: 50%;
+        background: orange;
+    }
+    .globeViz {
+        width: 100%;
+        height: 100%;
+    }
+}
